@@ -79,6 +79,7 @@ with st.sidebar:
         type=["pdf"],
         key=f"uploader_{st.session_state.uploader_key}",
         label_visibility="collapsed",
+        max_upload_size=80
     )
 
     if st.button("✨ Try the sample PDF", use_container_width=True):
