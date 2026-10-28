@@ -1,7 +1,4 @@
-"""
-app.py  —  the Streamlit user interface of Ask Your PDF
-Run it with:  streamlit run app.py
-"""
+
 
 import html
 import io
